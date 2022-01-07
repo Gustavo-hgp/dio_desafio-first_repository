@@ -1,0 +1,180 @@
+html{
+    scroll-behavior: smooth;
+}
+#logo{
+    font-weight: bold;
+    color: #00FF00;
+}
+
+
+
+
+/*=========Banner=========*/
+.banner{
+    background-image: url(../img/banner.jfif);
+    height: 75vh;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.color-overlay{
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    opacity: 0.7;
+    position: absolute;
+}
+.banner-elementos{
+   text-align: center;
+   z-index: 1;
+}
+.banner h1{
+    font-weight: bold;
+    color: #00FF00;
+    font-size: 4.0rem;
+}
+.banner p{
+    color: honeydew;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color:#00FF00 ;
+    text-decoration: none;
+}
+
+
+
+/*====conteudo pincipal=====*/
+#principal{
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(102, 101, 101);
+
+}
+#titulo-principal{
+    padding: 1%;
+    background-color:rgb(53, 52, 52);
+    text-align: center;
+    
+}
+#titulo-principal h2{
+    font-size: 3.0rem;
+    color: #00FF00;
+}
+#text-main p{
+    margin-top: 2%;
+    text-align: justify;
+    font-size: 1.1rem;
+    color: white;
+}
+p{
+    text-align: justify;
+    font-size: 1.3rem;
+}
+.card{
+    background-color: rgb(102, 101, 101);
+}
+#cards a{
+
+    color: white;
+    
+}
+.card p{
+    font-size: 1.1rem;
+}
+#cards a {
+    text-decoration: none;
+    color: white;
+}
+
+#cards a:hover {
+    color:#00FF00 ;
+    text-decoration: none;
+}
+h5{
+    color: #00FF00;
+    font: bold;
+    font-size: 2.3rem;
+}
+.card h6{
+    color: rgb(172, 172, 172);
+    font: bold;
+    font-size: 1.3rem;
+    z-index: 1
+}
+.card-body{
+    background-color: rgb(102, 101, 101);
+    color: white;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.banner-fim{
+    background-color: rgb(66, 66, 66);
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+footer{
+    text-align: center;
+}
+footer p{
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 3.2rem;
+}
+
+footer .card-body {
+ 
+    color: #00FF00;
+}
+
+#ajuda span {
+    margin-left: 10px;
+}
+/* ======== BACK TO TOP =========*/
+
+.back-to-top {
+    background: green;
+    color: white;
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    padding: 0.5em;
+    font-size: 1.5rem;
+    clip-path: circle();
+    line-height: 0;
+
+    visibility: hidden;
+    opacity: 0;
+
+    transition: 0.3s;
+
+    transform: translateY(100%);
+}
+
+.back-to-top.show {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+
+   
+
