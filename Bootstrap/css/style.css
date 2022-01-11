@@ -1,0 +1,26 @@
+.navbar{
+margin-left: 5%;
+margin-right: 5%;
+background-color: dark;
+}
+.quem-somos{
+background-color: dimgray;
+}
+.margin{
+
+padding-bottom: 15px;
+}
+body{
+font: 20px Ariel, sans-serif;
+}
+#titulo-quemsomos{
+padding-top: 30px;
+}
+#conteudo-quemsomos{
+text-transform: capitalize;}
+#parceiros{
+padding-top: 30px;
+}
+.parceiros{
+background-color: green;
+}
